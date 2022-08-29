@@ -1,0 +1,49 @@
+#Pedro Henrique de Santana Girardi
+#https://www.linkedin.com/in/pedro-girardi-a51b5b234/
+#atividade sugerida pelo pofessor https://www.linkedin.com/in/wandreveloso/
+
+library(dslabs)
+data(murders)
+class(murders)
+str(murders)
+head(murders)
+murders$population
+names(murders)
+
+pop <- murders$population
+lenght(pop)
+
+z <- 3==2
+z
+class(z)
+
+murders$region
+class(murders$region)
+levels(murders$region)
+murders$region == murders[["region"]]
+
+class(murders[["region"]]
+      
+      x <- c("a","a", "b", "b", "b", "c")
+      class(x)
+      str(x)
+      head(x)
+      lenght(x)
+      levels(x)
+      table(x)
+      #o "table" calcula os dados
+      
+      
+      # 2x^2 * -b * -4
+      a <- 2
+      b <- -1
+      c <- -4
+      (-b + sqrt(b^2 - 4*a*c))/(2*a)
+      (-b - sqrt(b^2 - 4*a*c))/(2*a)
+      #sqrt é raíz quadrada
+      # "=" não é a mesma coisa que "<-" em R
+      data("movielens")
+      length(movielens$genres)
+      length(levels(movielens$genres))  
+      # "length" é basicamente a contagem
+      #"levels" ele impede repetição, classificando em níveis total que tem (ex: tem 901 tipos de generos)
